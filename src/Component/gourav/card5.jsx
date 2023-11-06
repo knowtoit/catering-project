@@ -12,7 +12,7 @@ import {
   Col
 } from "reactstrap";
 
-import Card5Img from "../../assets/images/logo/Card3.webp";
+import Card5Img from "../../assets/images/logo/card3.webp";
 
 const Card5 = () => {
   return (
