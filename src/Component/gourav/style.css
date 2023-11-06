@@ -1,0 +1,31 @@
+/* Sticky Navbar for Mobile */
+@media (max-width: 768px) {
+  .custom-navbar {
+    position: sticky;
+    top: 0px;  /* Changed from 20 to 0px */
+    z-index: 1020;
+  }
+
+  .NavItemClass {
+    margin-left: 0;
+  }
+
+  .logoClass {
+    display: none;
+  }
+
+  .imgLogo {
+    display: block;
+  }
+}
+
+.NavItemClass {
+  margin-left: 1%;
+}
+.NavItemClassLink {
+  color: rgb(255, 255, 255);
+}
+
+.imgLogo {
+  display: none;
+}

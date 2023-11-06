@@ -1,0 +1,10 @@
+@import '../node_modules/prismjs/themes/prism-tomorrow';
+@import './assets/scss/app.scss';
+
+/* Adding styles for screens with max-width of 400px, which will target devices like iPhone 12 Pro in portrait mode */
+@media (max-width: 400px) {
+    .text-center {
+      margin-bottom: 20px;  /* Adjust as needed */
+    }
+  }
+  
